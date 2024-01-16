@@ -1,0 +1,5 @@
+#Use the official BusyBox base image
+FROM busybox
+
+#Run a shell process to keep the  container Running
+CMD["sh"]
